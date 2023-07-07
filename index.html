@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medical AI lab.</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="/images/favicon.ico" sizes="48x48" />
+  </head>
+  <body>
+    <!-- 헤더 시작 -->
+    <header>
+      <p><a href="https://www.pknu.ac.kr/main" target="_blank">PKNU</a></p>
+      <nav class="nav_bar">
+        <!-- hamburger menu bar -->
+        <div class="hamburger" id="hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+        <ul class="nav_menu">
+          <li>RESEARCH</li>
+          <li>MEMBER</li>
+          <li>PUBLICATION</li>
+          <li id="contact">CONTACT</li>
+        </ul>
+        <!-- 모바일 nav bar -->
+        <ul class="mobile_nav_menu">
+          <li>RESEARCH</li>
+          <li>MEMBER</li>
+          <li>PUBLICATION</li>
+          <li id="contact2">CONTACT</li>
+        </ul>
+      </nav>
+    </header>
+    <!-- 헤더 끝 -->
+
+    <!-- 팝업창 -->
+    <div class="popUp">
+      <button id="closePopup">X</button>
+      <p>대학원생 및 학부연구생에 관심있는 학생 <a id="contactClick">여기 클릭</a>!!</p>
+    </div>
+
+    <!-- 모달창 -->
+    <div class="contactModal">
+      <div class="contentWrap">
+        <p>주 소 : 웅비관 1307호</p>
+        <p>전화번호 : 051-629-6240</p>
+        <p>E-Mail : jhwon@pknu.ac.kr</p>
+        <button id="btnConfirm">확 인</button>
+      </div>
+    </div>
+
+    <!-- 여기서부터 메인시작 -->
+    <main>
+      <!-- 메인헤더 시작 -->
+      <section class="main_header">
+        <div class="main_header_contents">
+          <p>Pukyong National University</p>
+          <h1>Medical AI Lab.</h1>
+        </div>
+        <ul class="main_contents">
+          <li>
+            Welcome to the Laboratory of AI on medical applications (P.I. Prof. Ji Hye Won).
+          </li>
+          <li>
+            I am looking for postdocs, graduate and undergraduate students interested in machine learning, imaging genetics, medical image computing, bioinformatics, and biomedical data science.
+          </li>
+          <li>
+            If you're interested, please send me an email(jhwon@pknu.ac.kr) with your curriculum vitae.
+          </li>
+        </ul>
+      </section>
+      <!-- 메인헤더 끝 -->
+
+      <!-- 콘텐츠 wrap 시작 -->
+      <section class="content_wrap">
+        <div id="item">
+          <img src="./images/img1.png" />
+          <h1>Ji Hye Won Ph. D.</h1>
+          <p>Details</p>
+        </div>
+        <div id="item">
+          <img src="./images/img2.png" />
+          <h1>Virtual doctor</h1>
+          <p>The development of AI framework that supports data analysis and decision making</p>
+        </div>
+        <div id="item">
+          <img src="./images/img3.png" />
+          <h1>Neuroimaging genetics</h1>
+          <p>Data informatics to link genetics and brain structure and function</p>
+        </div>
+        <div id="item">
+          <img src="./images/img4.png" />
+          <h1>Neurodegenerative disease</h1>
+          <p>Alzheimer's disease & Parkinson's disease</p>
+        </div>
+        <div id="item">
+          <img src="./images/img5.png" />
+          <h1>ML for medical data</h1>
+          <p>Using machine learning to identify disease biomarkers, subtypes or model.</p>
+        </div>
+        <div id="item">
+          <img src="./images/img6.png" />
+          <h1>Data integration analysis</h1>
+          <p>Dimensionality reduction and integration of multimodal data</p>
+        </div>
+      </section>
+      <!-- 콘텐츠 wrap 끝 -->
+    </main>
+    <!-- 여기까지 메인 -->
+
+    <footer>
+      <p>@copyright, jhwon</p>
+    </footer>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
